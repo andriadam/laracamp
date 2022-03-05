@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-8 offset-2">
-                <div class="card">
+                <div class="card mt-3">
                     <div class="card-header">
                         My Camps
                     </div>
@@ -32,8 +32,8 @@
                                         </td>
                                     </tr>
                                 @empty
-                                    <tr>
-                                        <td colspan="3">No camps registered</td>
+                                    <tr class="text-center">
+                                        <td colspan="5">No camps registered</td>
                                     </tr>
                                 @endforelse
                             </tbody>
